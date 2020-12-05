@@ -1,0 +1,6 @@
+{
+  "port": 5005,
+  "jwtSecret": "secret key",
+  "mongoURI": "mongodb+srv://artem:pronja2002@cluster0.2nwis.mongodb.net/app?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5005"
+}

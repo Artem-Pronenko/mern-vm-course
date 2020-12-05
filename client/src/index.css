@@ -1,0 +1,31 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+.card-action {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+input.yellow-input {
+    border-bottom: 1px solid #fff !important;
+    box-shadow: 0 1px 0 0 #fff !important;
+    color: white;
+}
+
+input.yellow-input + label {
+    color: #fff !important;
+}
+
+input.yellow-input:focus + label {
+    color: #ffeb3d !important;
+}
+
+input.yellow-input:focus {
+    border-bottom: 1px solid #ffeb3d !important;
+    box-shadow: 0 1px 0 0 #ffeb3d !important;
+}
+
+.preloader-wrapper {
+    margin: 2rem auto;
+    display: block;
+}
